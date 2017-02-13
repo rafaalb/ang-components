@@ -1,4 +1,5 @@
-# Angular JS 1.5 - ES6 Module Unit testing and Karma Integration testing seed 
+# Angular JS 1.5 - ES6 Module Unit testing and Karma Integration testing seed by [@tomastrajan](https://twitter.com/tomastrajan) [![Build Status](https://travis-ci.org/tomastrajan/angular-js-es6-testing-example.svg?branch=master)](https://travis-ci.org/tomastrajan/angular-js-es6-testing-example)
+
 ## Getting started
 
 1. Clone repository `git clone https://github.com/tomastrajan/angular-js-es6-testing-example.git`
@@ -22,3 +23,12 @@ All scripts are run with `npm run [script]`, for example: `npm run test`.
 * `watch` - run and watch all unit tests (with Mocha)
 * `karma` - run all integration tests (with Karma / Jasmine)
 * `test` - lint code and run all tests (with Mocha and Karma)
+
+# Tests
+
+For more detailed info about tests check the original [blog post](https://medium.com/@tomastrajan/proper-testing-of-angular-js-applications-with-es6-modules-8cf31113873f).
+
+
+* `*.test.js` - mocha unit tests
+* `*.integration.test.js` - mocha integration tests (manual)
+* `*.spec.js` - karma integration tests (spin up Angular JS app context)
